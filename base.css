@@ -26,6 +26,14 @@ body {
 .header {
     background-color: rgb(5, 108, 108);
     min-height: 150px;
+    background-image: url(./image.jpg);
+    background-size: 1000px;
+}
+.header h1{
+    color: #00FF93;
+    font-size: 100px;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 0px;
 }
 .content {
     background-color: white;
