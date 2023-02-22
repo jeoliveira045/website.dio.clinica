@@ -20,17 +20,28 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color: rgb(122, 223, 101);
     padding: 10px 20px 0px;
 }
+.menu li{
+    list-style: none;
+    color:#FFF
+}
+.menu ul{
+    margin-left: -40px;
+}
+.menu h2{
+    list-style: none;
+    color:#FFF;
+}
 .header {
-    background-color: rgb(5, 108, 108);
+    background-color: rgb(18, 119, 119);
     min-height: 150px;
     background-image: url(./image.jpg);
     background-size: 1000px;
 }
 .header h1{
-    color: #00FF93;
+    color: #30ac20;
     font-size: 100px;
     font-family:'Times New Roman', Times, serif;
     margin-left: 1em;
@@ -41,7 +52,7 @@ body {
     padding: 20px;
 }
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color: rgb(17, 83, 22);
     min-height: 150px;
 }
 
@@ -49,8 +60,13 @@ body {
     color: #FFF
 }
 
+.footer h4{
+    color: #FFF;
+    margin-left: 25px;
+}
+
 .menu a:visited, .menu a:link{
-    color: #000;
+    color: #FFF;
 }
 
 table, th, td{
