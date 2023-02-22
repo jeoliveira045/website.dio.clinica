@@ -33,7 +33,7 @@ body {
     color: #00FF93;
     font-size: 100px;
     font-family:'Times New Roman', Times, serif;
-    margin-left: 0px;
+    margin-left: 1em;
 }
 .content {
     background-color: white;
@@ -44,3 +44,27 @@ body {
     background-color: rgb(99, 56, 240);
     min-height: 150px;
 }
+
+.footer a:visited, footer a:link{
+    color: #FFF
+}
+
+.menu a:visited, .menu a:link{
+    color: #000;
+}
+
+table, th, td{
+    border: 1px black solid;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
